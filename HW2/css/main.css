@@ -1,0 +1,162 @@
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family:"Open Sans";
+	font-weight: 400;
+
+}
+p{
+	font-size: 16px;
+	line-height: 27px;
+}
+h1,h2,h3,h4,h5,p{
+	margin: 0;
+
+
+}
+h2{
+	font-size: 35px;
+	margin-top: 110px;
+	font-family: "Ubuntu";
+	font-weight: 700;
+	text-align: center;
+}
+.container {
+	width: 1170px;
+	margin: auto;
+
+}
+.header_logo{
+	width: 100px;
+	padding-top: 70px;
+	margin-bottom: 28px;
+}
+header{
+	background: linear-gradient(37deg, rgba(77,191,254,1) 0%, rgba(55,143,217,1) 100%);
+	padding-bottom: 50px;
+}
+.header_text h1{
+	font-family: "Ubuntu";
+	font-size: 37px;
+	color: #fff;
+	font-weight: 700;
+
+}
+.header_text h1 span{
+	font-size: 59px;
+	display: block;
+
+}
+.header_text p{
+	color: #fff;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	width: 400px;
+
+}
+.header_btn{
+	font-family:"Montserrat";
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 900;
+	text-decoration: none;
+	padding: 20px 25px;
+	background-color: #ffd429;
+	color: #2e2a1b;
+}
+.header_img{
+	width: 525px;
+}
+.header_overlay{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.main_section{
+	width: 1170px;
+	margin: auto;
+
+
+}
+
+.future_img{
+	margin-top: 75px;
+	margin-bottom: 35px;
+}
+
+.future{
+
+	display: flex;
+	justify-content: space-between;
+	text-align: center;	
+}
+.future_text{
+	margin-bottom: 20px;
+	font-family: "Ubuntu";
+	font-weight: 700;
+}
+.future_p{
+	font-family: "Ubuntu";
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+}
+.future_block{
+	margin-right: 160px;
+	margin-bottom: 120px;
+}
+.future_block1{
+	margin-right: 0;
+}
+.move_to_dr{
+	background-color: #ecf3f8;
+	padding-top: 105px;
+	padding-bottom: 100px;
+
+}
+
+
+.input_st{
+ 	height: 50px;
+ 	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 15px;
+  	width: 345px;
+
+}
+.input_btn{
+	    background-color: #ffd429;
+	    border: #ffd429;
+	    font-family: "Montserrat";
+	    font-weight: 900;
+	    line-height: 25px;
+	    font-size: 15px;
+	    margin-bottom: 0;
+
+}
+.main_text_title{
+	margin-bottom: 55px;
+	margin-top: 0px;
+	
+}
+.footer_text{
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+}
+footer{
+	padding: 57px 0px; 
+	background-color: #164d7a;
+	/*я тут посчитал высоту футера по формуле (140 - 25(высота текста))/2*/
+}
