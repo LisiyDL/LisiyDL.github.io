@@ -85,6 +85,7 @@ header{
 .future_img{
 	margin-top: 75px;
 	margin-bottom: 35px;
+	height: 60px;
 }
 
 .future{
@@ -105,11 +106,8 @@ header{
 	line-height: 22px;
 }
 .future_block{
-	margin-right: 160px;
 	margin-bottom: 120px;
-}
-.block3{
-	margin-right: 0;
+	width: 300px;
 }
 .move_to_dr{
 	background-color: #ecf3f8;
@@ -125,7 +123,8 @@ header{
   	margin-left: auto;
   	margin-right: auto;
   	margin-bottom: 15px;
-  	width: 345px;
+  	width: 320px;
+  	padding-left: 25px;
 
 }
 .input_btn{
@@ -136,6 +135,8 @@ header{
 	    line-height: 25px;
 	    font-size: 15px;
 	    margin-bottom: 0;
+	   	width: 345px;
+	   	padding: 0;
 
 }
 .main_text_title{
@@ -158,7 +159,7 @@ footer{
 /* 834 - 1200px */
 @media screen and (max-width: 1200px) {
 	.container{
-		width: 810px;
+		width: calc(100% - 80px);
 	}
 	.header_img{
 		width: 103%;
@@ -174,9 +175,6 @@ footer{
 	}
 }
 @media screen and (max-width: 829px) {
-	.container {
-		width: 700px;
-	}
 	.header_text h1{
 		font-size: 30px;
 	}
@@ -190,25 +188,16 @@ footer{
 		flex-direction: row;
 		justify-content: space-between;
 	}
-	.future_block{
-		margin-right: 100px;
-	}
 }
 @media screen and (max-width: 804px) {
-	.container{
-		width: 670px;
-	}
 	.header_img{
-		width: 103%;
+		width: 110%;
 	}
 	.header_text h1{
 		font-size: 25px;
 	}
 	.header_text h1 span{
 		font-size: 40px;
-	}
-	.header_img{
-		width: 116%;
 	}
 }
 @media screen and (max-width: 758px) {
@@ -227,12 +216,43 @@ footer{
     	font-size: 70px;
 	}
 }
-@media screen and (max-width: 672px) {
-	.container{
-		width: 450px;
+@media screen and (max-width: 672px){
+	.container {
+		width: calc(100% - 40px);
 	}
 	.future{
 		flex-direction: column;
 		width: 400px;
+	}
+
+}
+@media screen and (max-width: 433px) {
+	.header_img{
+		display: block;
+		margin: 40px auto 0;
+		width: 80%;
+
+	}
+	.header_text p{
+		width: auto;
+	}
+	.future_block {
+    	margin-bottom: 0;
+    	margin: auto;
+	}
+	.future_block:last-child{
+		margin-bottom: 65px;
+	}
+	.future_img{
+		margin-top: 40px;
+	}
+	h2 {
+    	font-size: 35px;
+	}
+	.input_st{
+		width:calc(100% - 25px);
+	}
+	.future{
+		width: 100%;
 	}
 }
