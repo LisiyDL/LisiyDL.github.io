@@ -80,13 +80,6 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
-}
-.main_section{
-	width: 1170px;
-	margin: auto;
-
-
 }
 
 .future_img{
@@ -115,7 +108,7 @@ header{
 	margin-right: 160px;
 	margin-bottom: 120px;
 }
-.future_block1{
+.block3{
 	margin-right: 0;
 }
 .move_to_dr{
@@ -155,8 +148,91 @@ header{
 	line-height: 25px;
 	text-align: center;
 }
+
 footer{
 	padding: 57px 0px; 
 	background-color: #164d7a;
 	/*я тут посчитал высоту футера по формуле (140 - 25(высота текста))/2*/
+}
+
+/* 834 - 1200px */
+@media screen and (max-width: 1200px) {
+	.container{
+		width: 810px;
+	}
+	.header_img{
+		width: 103%;
+	}
+	.header_text h1{
+		font-size: 33px;
+	}
+	.header_text h1 span{
+		font-size: 52px;
+	}
+	.future_block{
+		width: 200px;
+	}
+}
+@media screen and (max-width: 829px) {
+	.container {
+		width: 700px;
+	}
+	.header_text h1{
+		font-size: 30px;
+	}
+	.header_text h1 span{
+		font-size: 47px;
+	}
+	.header_img{
+		width: 117%;
+	}
+	.future{
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.future_block{
+		margin-right: 100px;
+	}
+}
+@media screen and (max-width: 804px) {
+	.container{
+		width: 670px;
+	}
+	.header_img{
+		width: 103%;
+	}
+	.header_text h1{
+		font-size: 25px;
+	}
+	.header_text h1 span{
+		font-size: 40px;
+	}
+	.header_img{
+		width: 116%;
+	}
+}
+@media screen and (max-width: 758px) {
+	.header_overlay{
+		flex-direction: column;
+	}
+	.header_img{
+		width: 61%;
+    	margin-left: 80px;
+   		margin-top: 41px;
+	}
+	.header_text h1 {
+    	font-size: 40px;
+	}
+	.header_text h1 span {
+    	font-size: 70px;
+	}
+}
+@media screen and (max-width: 672px) {
+	.container{
+		width: 450px;
+	}
+	.future{
+		flex-direction: column;
+		width: 400px;
+	}
 }
