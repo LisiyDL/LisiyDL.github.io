@@ -6,13 +6,11 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
-
 body{
 	margin: 0;
 	padding: 0;
 	font-family:"Open Sans";
 	font-weight: 400;
-
 }
 p{
 	font-size: 16px;
@@ -20,8 +18,6 @@ p{
 }
 h1,h2,h3,h4,h5,p{
 	margin: 0;
-
-
 }
 h2{
 	font-size: 35px;
@@ -33,7 +29,6 @@ h2{
 .container {
 	width: 1170px;
 	margin: auto;
-
 }
 .header_logo{
 	width: 100px;
@@ -54,14 +49,12 @@ header{
 .header_text h1 span{
 	font-size: 59px;
 	display: block;
-
 }
 .header_text p{
 	color: #fff;
 	margin-top: 45px;
 	margin-bottom: 45px;
 	width: 400px;
-
 }
 .header_btn{
 	font-family:"Montserrat";
@@ -81,15 +74,12 @@ header{
 	justify-content: space-between;
 	align-items: center;
 }
-
 .future_img{
 	margin-top: 75px;
 	margin-bottom: 35px;
 	height: 60px;
 }
-
 .future{
-
 	display: flex;
 	justify-content: space-between;
 	text-align: center;	
@@ -113,10 +103,7 @@ header{
 	background-color: #ecf3f8;
 	padding-top: 105px;
 	padding-bottom: 100px;
-
 }
-
-
 .input_st{
  	height: 50px;
  	display: block;
@@ -125,7 +112,6 @@ header{
   	margin-bottom: 15px;
   	width: 320px;
   	padding-left: 25px;
-
 }
 .input_btn{
 	    background-color: #ffd429;
@@ -137,25 +123,21 @@ header{
 	    margin-bottom: 0;
 	   	width: 345px;
 	   	padding: 0;
-
 }
 .main_text_title{
 	margin-bottom: 55px;
 	margin-top: 0px;
-	
 }
 .footer_text{
 	font-size: 14px;
 	line-height: 25px;
 	text-align: center;
 }
-
 footer{
 	padding: 57px 0px; 
 	background-color: #164d7a;
 	/*я тут посчитал высоту футера по формуле (140 - 25(высота текста))/2*/
 }
-
 /* 834 - 1200px */
 @media screen and (max-width: 1200px) {
 	.container{
@@ -224,14 +206,12 @@ footer{
 		flex-direction: column;
 		width: 400px;
 	}
-
 }
 @media screen and (max-width: 433px) {
 	.header_img{
 		display: block;
 		margin: 40px auto 0;
 		width: 80%;
-
 	}
 	.header_text p{
 		width: auto;
