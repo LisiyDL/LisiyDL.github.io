@@ -1,0 +1,46 @@
+.leftH{
+	background-color: transparent;
+	background-image: url(../img/VectorL.svg);
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 14px;
+	border: none;
+	position: absolute;
+	top: 383px;
+	left: -278px;
+	bottom: 6px;
+}	
+.rightH{
+	background-color: transparent;
+	background-image: url(../img/VectorR.svg);
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 14px;
+	border: none;
+	position: absolute;
+	top: 383px;
+	left: -233px;
+	bottom: 6px;
+}
+.leftT{
+	background-color: transparent;
+	background-image: url(../img/VectorL.svg);
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 14px;
+	border: none;
+	position: absolute;
+	top: 288px;
+	left: calc(50% - 37px);
+}	
+.rightT{
+	background-color: transparent;
+	background-image: url(../img/VectorR.svg);
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 14px;
+	border: none;
+	position: absolute;
+	top: 288px;
+	right: calc(50% - 46px);
+}

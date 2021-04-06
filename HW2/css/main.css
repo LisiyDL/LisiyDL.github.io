@@ -56,6 +56,9 @@ header{
 	margin-bottom: 45px;
 	width: 400px;
 }
+.block_img{
+	margin-right: 20px;
+}
 .header_btn{
 	font-family:"Montserrat";
 	font-size: 15px;
