@@ -376,9 +376,13 @@ height: 589px;
 	font-size: 14px;
 	line-height: 21px;
 	width: 878px;	
+	padding-bottom: 37px;
+}
+.right_qest{
+	margin-top: -32px;	
 }
 .right_qest img{
-	width: 80px;
+	width: 73px;
 }
 .left_instal h2{
 	font-family: "Gotham Pro";
